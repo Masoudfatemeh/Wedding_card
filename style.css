@@ -72,5 +72,84 @@ to {
 opacity:1;
 transform:translateY(0);
 }
+    .invite {
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(255,250,240,.85),
+    rgba(255,250,240,.95)
+    ),
+    url("photo.jpg") center/cover;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+
+.invite-content {
+
+    max-width:600px;
+
+    animation: fadeIn 2s ease;
+
+}
+
+
+.invite h2 {
+
+    font-size:32px;
+
+    color:#b08b45;
+
+    margin-bottom:35px;
+
+}
+
+
+.story {
+
+    font-size:22px;
+
+    line-height:2.2;
+
+    color:#555;
+
+}
+
+
+.names h1 {
+
+    margin:40px 0;
+
+    font-size:45px;
+
+    color:#9c7440;
+
+}
+
+
+.details {
+
+    background:rgba(255,255,255,.7);
+
+    padding:25px;
+
+    border-radius:20px;
+
+    font-size:20px;
+
+    line-height:2;
+
+}
 
 }
