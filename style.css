@@ -181,3 +181,59 @@ border-radius:20px;
 box-shadow:0 10px 25px rgba(0,0,0,.15);
 
 }
+.event-box {
+
+    margin-top:40px;
+
+    padding:30px;
+
+    background:rgba(255,255,255,0.85);
+
+    border-radius:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+    animation: fadeIn 2s ease;
+
+}
+
+
+.event-box h3 {
+
+    color:#b08b45;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+
+.event-box p {
+
+    font-size:20px;
+
+    color:#555;
+
+    margin:10px;
+
+}
+
+
+.event-box button {
+
+    margin-top:25px;
+
+    background:#b08b45;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 30px;
+
+    border-radius:30px;
+
+    font-size:17px;
+
+}
