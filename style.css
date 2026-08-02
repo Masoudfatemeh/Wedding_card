@@ -263,3 +263,61 @@ button:hover {
 transform:scale(1.05);
 
 }
+button {
+
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+
+    transition:all .4s ease;
+
+}
+
+
+button:hover {
+
+    transform:translateY(-5px);
+
+}
+
+
+.hero::before {
+
+    content:"❤️";
+
+    position:absolute;
+
+    top:15%;
+
+    left:15%;
+
+    font-size:30px;
+
+    opacity:.5;
+
+    animation:float 5s infinite ease-in-out;
+
+}
+
+
+@keyframes float {
+
+0% {
+
+transform:translateY(0);
+
+}
+
+
+50% {
+
+transform:translateY(-30px);
+
+}
+
+
+100% {
+
+transform:translateY(0);
+
+}
+
+}
