@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>دعوت نامه عروسی مسعود و فاطمه</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="loader">
+
+<div class="loader-heart"></div>
+
+</div>
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h3 class="bismillah">
+به نامش و به یاری اش
+</h3>
+
+<h1>
+آغاز می کنیم
+</h1>
+
+<p>
+
+زیستن را
+
+<br>
+
+پیوستن را
+
+<br>
+
+و یکی شدن را
+
+</p>
+
+<button id="enterBtn">
+
+ورود به دعوت نامه
+
+</button>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
